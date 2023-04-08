@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+
+* {
+    font-family: 'Alkatra', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.filterBtn {
+    box-shadow: none !important;
+    outline: unset;
+    font-size: 25px;
+}
+
+.modal-dialog {
+    height: 90%;
+}
+
+.modal-content {
+    height: 100%;
+}
+
+.modal-content select .group-title .vscomp-option-text {
+    font-size: 20px;
+}
+
+.vscomp-ele {
+    max-width: unset;
+    width: 100%;
+}
+
+.vscomp-options-container {
+    max-height: 250px !important;
+}
+
+.vscomp-wrapper.multiple .vscomp-option.selected .checkbox-icon::after,
+.vscomp-wrapper .checkbox-icon.checked::after {
+    border-color: #0054ff;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    width: 50%;
+    transform: rotate(45deg) translate(1px, -4px);
+    -webkit-transform: rotate(45deg) translate(1px, -4px);
+    -moz-transform: rotate(45deg) translate(1px, -4px);
+    -ms-transform: rotate(45deg) translate(1px, -4px);
+    -o-transform: rotate(45deg) translate(1px, -4px);
+}
+
+.vscomp-wrapper .checkbox-icon::after {
+    transition-duration: .2s;
+    border: 2px solid;
+    border-color: #0054ff69;
+    border-radius: 4px;
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.vscomp-toggle-button {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .12), 0 1px 5px 0 rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.vscomp-arrow::after {
+    opacity: 0.5;
+    border-width: 2px;
+}
+
+.vscomp-option.group-title .vscomp-option-text {
+    opacity: unset;
+}
+
+.vscomp-option.group-option .vscomp-option-text {
+    opacity: .6;
+}
+
+.pop-comp-wrapper {
+    overflow: hidden;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
